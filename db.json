@@ -1,0 +1,277 @@
+{
+    "products" : [
+        {
+            "id": 1,
+            "title": "HP Laptop 14-DQ0052DX Intel Celeron N4120 4GB RAM, 64GB eMMC, Windows 11 - 685K1UA",
+            "image": "https://techmall.com.ng/wp-content/uploads/2024/08/HP-Laptop-14-EP0792-2.png",
+            "category": "Laptop",
+            "price": 4500,
+            "reviews": 112
+        },
+        {
+            "id": 2,
+            "title": "24inch LED Monitor with IPS panel and Borderless Design LF24T350FHMXZN  Samsung Levant",
+            "image": "https://images.philips.com/is/image/philipsconsumer/c21144b78aff43aab2fab01c00c2c149?$pnglarge$&wid=1250",
+            "category": "Monitor",
+            "price": 7800,
+            "reviews": 524
+        },
+        {
+            "id": 3,
+            "title": "Oppo X1 128gb",
+            "image": "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-a3-pro-5g-en/featured/640_640-purple.png.thumb.webp",
+            "category": "Phone",
+            "price": 675,
+            "reviews": 524
+        },
+        {
+            "id": 4,
+            "title": "WH-CH520 Wireless | Headphones | Sony Asia Pacific",
+            "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/wh-ch520_Primary_image?$categorypdpnav$&fmt=png-alpha",
+            "category": "Headphone",
+            "price": 125,
+            "reviews": 362
+        },
+        {
+          "id": 1,
+          "title": "24inch LED Monitor with IPS panel and Borderless Design LF24T350FHMXZN  Samsung Levant",
+          "image": "https://images.samsung.com/is/image/samsung/p6pim/za/lf24t350fhaxxa/gallery/za-t35f-374271-lf24t350fhaxxa-516514409?$650_519_PNG$",  
+          "category": "Monitor",
+          "price": 7800,
+          "reviews": 524
+        },
+        {
+          "id": 2,
+          "title": "Dell UltraSharp 27-inch 4K Monitor",
+          "image": "https://i.dell.com/is/image/DellContent//content/dam/images/products/electronics-and-accessories/dell/monitors/s-series/s2721qs/s2721qs-cfp-00025lf095-gy.psd?fmt=png-alpha&pscan=auto&scl=1&hei=804&wid=891&qlt=100,1&resMode=sharp2&size=891,804&chrss=full", 
+          "category": "Monitor",
+          "price": 649,
+          "reviews": 890
+        },
+        {
+          "id": 1,
+          "title": "HP Laptop 14-DQ0052DX Intel Celeron N4120 4GB RAM, 64GB eMMC, Windows 11 - 685K1UA",
+          "image": "https://techmall.com.ng/wp-content/uploads/2024/08/HP-Laptop-14-EP0792-2.png",
+          "category": "Laptop",
+          "price": 4500,
+          "reviews": 112
+        },
+        {
+          "id": 2,
+          "title": "24inch LED Monitor with IPS panel and Borderless Design LF24T350FHMXZN  Samsung Levant",
+          "image": "https://images.philips.com/is/image/philipsconsumer/c21144b78aff43aab2fab01c00c2c149?$pnglarge$&wid=1250",
+          "category": "Monitor",
+          "price": 7800,
+          "reviews": 524
+        },
+        {
+          "id": 3,
+          "title": "Oppo X1 128gb",
+          "image": "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-a3-pro-5g-en/featured/640_640-purple.png.thumb.webp",
+          "category": "Phone",
+          "price": 675,
+          "reviews": 524
+        }
+    ],
+
+    "bestDeals": [
+    {
+      "id": 1,
+      "title": "HP Laptop 14-DQ0052DX Intel Celeron N4120 4GB RAM, 64GB eMMC, Windows 11 - 685K1UA",
+      "image": "https://techmall.com.ng/wp-content/uploads/2024/08/HP-Laptop-14-EP0792-2.png",
+      "category": "Laptop",
+      "price": 4500,
+      "reviews": 112
+    },
+    {
+      "id": 2,
+      "title": "24inch LED Monitor with IPS panel and Borderless Design LF24T350FHMXZN  Samsung Levant",
+      "image": "https://images.philips.com/is/image/philipsconsumer/c21144b78aff43aab2fab01c00c2c149?$pnglarge$&wid=1250",
+      "category": "Monitor",
+      "price": 7800,
+      "reviews": 524
+    },
+    {
+      "id": 3,
+      "title": "Oppo X1 128gb",
+      "image": "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-a3-pro-5g-en/featured/640_640-purple.png.thumb.webp",
+      "category": "Phone",
+      "price": 675,
+      "reviews": 524
+    },
+    {
+      "id": 4,
+      "title": "WH-CH520 Wireless | Headphones | Sony Asia Pacific",
+      "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/wh-ch520_Primary_image?$categorypdpnav$&fmt=png-alpha",
+      "category": "Headphone",
+      "price": 125,
+      "reviews": 362
+    },
+    {
+      "id": 5,
+      "title": "Apple MacBook Pro 16-inch M1 Pro Chip",
+      "image": "https://distro.justror.com/media/e0/6a/85/1687289177/2021-MacBook-Pro-M1-Pro-Chip-16-Inch-Front-View-Space-Gray.png?1712344598",
+      "category": "Laptop",
+      "price": 2399,
+      "reviews": 784
+    },
+    {
+      "id": 6,
+      "title": "Samsung 55-inch QLED 4K TV",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/bd/qa55q60barsfs/gallery/bd-qled-q60b-qa55q60barsfs-533632982?$650_519_PNG$",
+      "category": "TV",
+      "price": 999,
+      "reviews": 301
+    }
+  ],
+  "bestSellingMobiles": [
+    {
+      "id": 1,
+      "title": "Oppo X1 128gb",
+      "image": "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/oppo-a3-pro-5g-en/featured/640_640-purple.png.thumb.webp",
+      "category": "Phone",
+      "price": 675,
+      "reviews": 524
+    },
+    {
+      "id": 2,
+      "title": "iPhone 13 Pro Max",
+      "image": "https://images-cdn.ubuy.co.in/6699b5a612ae13790b0792dd-pre-owned-apple-iphone-13-pro-max-256gb.jpg",
+      "category": "Phone",
+      "price": 1099,
+      "reviews": 1400
+    },
+    {
+      "id": 3,
+      "title": "Samsung Galaxy S22 Ultra",
+      "image": "https://assets.gadgetandgear.com/upload/product/20220306_1646549085_651537.png",
+      "category": "Phone",
+      "price": 1199,
+      "reviews": 923
+    },
+    {
+      "id": 4,
+      "title": "OnePlus 9 Pro",
+      "image": "https://oasis.opstatics.com/content/dam/oasis/page/2021/9-series/spec-image/9-pro/Pine%20green-gallery..png",
+      "category": "Phone",
+      "price": 969,
+      "reviews": 820
+    },
+    {
+      "id": 5,
+      "title": "Google Pixel 6 Pro",
+      "image": "https://www.clove.co.uk/cdn/shop/files/342667ff-48dc-4d10-8851-8600bfb2bbfe_1200x.jpg?v=1713802293",
+      "category": "Phone",
+      "price": 899,
+      "reviews": 145
+    },
+    {
+      "id": 6,
+      "title": "Xiaomi Mi 11 Ultra",
+      "image": "https://www.montentech.co.ke/wp-content/uploads/2022/07/Xiaomi-Mi-11-Ultra-5G-Ceramic-Black.jpg",
+      "category": "Phone",
+      "price": 849,
+      "reviews": 600
+    }
+  ],
+  "bestSellingTVs": [
+    {
+      "id": 1,
+      "title": "Samsung 55-inch QLED 4K TV",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/bd/qa55q60barsfs/gallery/bd-qled-q60b-qa55q60barsfs-533632982?$650_519_PNG$",
+      "category": "TV",
+      "price": 999,
+      "reviews": 301
+    },
+    {
+      "id": 2,
+      "title": "LG 65-inch OLED TV",
+      "image": "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/4c1b8767-1ab2-47d2-9185-d8cf59f92b1d/md08003931-DZ-2-jpg",
+      "category": "TV",
+      "price": 1799,
+      "reviews": 510
+    },
+    {
+      "id": 3,
+      "title": "Sony Bravia 50-inch 4K LED TV",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Y-SqujudcuwU0bcKeQ9QxCWOUh_3poxQow&s",
+      "category": "TV",
+      "price": 749,
+      "reviews": 344
+    },
+    {
+      "id": 4,
+      "title": "TCL 55-inch 4K UHD TV",
+      "image": "https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/tv/p/p655/id/50-65/3.jpg?t=1706508338123&w=800",
+      "category": "TV",
+      "price": 600,
+      "reviews": 210
+    },
+    {
+      "id": 5,
+      "title": "Vizio 65-inch 4K Smart TV",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOvl60DfSzI5DAFBSFaQ3ffOwJ9WObNdmvkg&s",
+      "category": "TV",
+      "price": 899,
+      "reviews": 600
+    },
+    {
+      "id": 6,
+      "title": "Philips 58-inch 4K UHD TV",
+      "image": "https://images.philips.com/is/image/philipsconsumer/1a2d6def617d4e11b2e4afba0137c09f?$pnglarge$&wid=1250",
+      "category": "TV",
+      "price": 749,
+      "reviews": 400
+    }
+  ],
+  "bestSellingMonitors": [
+    {
+      "id": 1,
+      "title": "24inch LED Monitor with IPS panel and Borderless Design LF24T350FHMXZN  Samsung Levant",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/za/lf24t350fhaxxa/gallery/za-t35f-374271-lf24t350fhaxxa-516514409?$650_519_PNG$",  
+      "category": "Monitor",
+      "price": 7800,
+      "reviews": 524
+    },
+    {
+      "id": 2,
+      "title": "Dell UltraSharp 27-inch 4K Monitor",
+      "image": "https://i.dell.com/is/image/DellContent//content/dam/images/products/electronics-and-accessories/dell/monitors/s-series/s2721qs/s2721qs-cfp-00025lf095-gy.psd?fmt=png-alpha&pscan=auto&scl=1&hei=804&wid=891&qlt=100,1&resMode=sharp2&size=891,804&chrss=full", 
+      "category": "Monitor",
+      "price": 649,
+      "reviews": 890
+    },
+    {
+      "id": 3,
+      "title": "LG 34-inch Curved Ultrawide Monitor",
+      "image": "https://m.media-amazon.com/images/I/61pQVKfINKL.jpg", 
+      "category": "Monitor",
+      "price": 499,
+      "reviews": 310
+    },
+    {
+      "id": 4,
+      "title": "Samsung Odyssey G7 32-inch Gaming Monitor",
+      "image": "https://images.samsung.com/is/image/samsung/in-gaming-monitor-c32g75tqsw-lc32g75tqswxxl-frontblack-335279889?$650_519_PNG$", 
+      "category": "Monitor",
+      "price": 799,
+      "reviews": 420
+    },
+    {
+      "id": 5,
+      "title": "Acer Predator 27-inch Gaming Monitor",
+      "image": "https://m.media-amazon.com/images/I/81eUaj5y1wL._AC_UF894,1000_QL80_.jpg",  
+      "category": "Monitor",
+      "price": 499,
+      "reviews": 305
+    },
+    {
+      "id": 6,
+      "title": "BenQ 27-inch 4K IPS Monitor",
+      "image": "https://m.media-amazon.com/images/I/819+AOzbBfL.jpg",  
+      "category": "Monitor",
+      "price": 450,
+      "reviews": 360
+    }
+  ]
+}
