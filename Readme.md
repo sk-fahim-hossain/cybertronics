@@ -25,7 +25,7 @@ A parcel focused project that displays a product catalog with the ability to vie
 
 ## Demo 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Project Demo](./assets/demo.png)
 
 
 ## Getting Started
