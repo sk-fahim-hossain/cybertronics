@@ -1,10 +1,5 @@
 
 const productsWrapper = document.querySelector(".products-wrapper");
-const bestDealsWrapper = document.querySelector(".best-deals-wrapper");
-const bestSellingMobiles = document.querySelector(".best-selling-mobiles-wrapper");
-const bestSellingTv = document.querySelector(".best-selling-tv-wrapper");
-const bestSellingMonitor = document.querySelector(".best-selling-monitor-wrapper");
-
 const productDetailsWrapper = document.querySelector(".product-details-wrapper");
 
 const addedProductWrapper = document.querySelector(".added-products");
@@ -14,31 +9,24 @@ const cartModal = document.querySelector(".modal");
 const cartCounter = document.querySelector(".cart-count");
 
 
+
+
+
+
 function getProducts(endPoints) {
-
     if (endPoints == "") {
-        fetch(`http://localhost:5000/products`)
+        fetch(`https://sk-fahim-hossain.github.io/host_api/products.json`)
             .then(res => {
                 if (!res.ok) throw new Error("Something went wrong..!")
                 return res.json()
             }).then(data => {
+               
                 renderProducts(data, endPoints)
                 loadingLocalData(data)
+              
             })
             .catch(error => renderError(error))
-    } else {
-        fetch(`http://localhost:5000/${endPoints}`)
-            .then(res => {
-                if (!res.ok) throw new Error("Something went wrong..!")
-                return res.json()
-            }).then(data => {
-                renderProducts(data, endPoints)
-                loadingLocalData(data)
-            })
-            .catch(error => renderError(error))
-    }
-
-
+    } 
 }
 
 getProducts('')
@@ -58,7 +46,7 @@ function currencyFormateder(price) {
 
 
 function renderProducts(products, category) {
-    products.slice(0, 6).forEach(product => {
+    products.forEach(product => {
         const html = `
                 <div class="product w-96 lg:w-86  h-auto overflow-hidden bg-white/75 backdrop-blur-lg mx-2  rounded-xl shadow-lg shadow-gray-100 ">
                     <div class="product-img h-75 overflow-hidden flex justify-center items-center">
@@ -78,18 +66,7 @@ function renderProducts(products, category) {
             productsWrapper.insertAdjacentHTML('afterbegin', html)
 
         }
-        if (category == "bestDeals") {
-            bestDealsWrapper.insertAdjacentHTML('afterbegin', html)
-        }
-        if (category == "bestSellingMobiles") {
-            bestSellingMobiles.insertAdjacentHTML('afterbegin', html)
-        }
-        if (category == "bestSellingTVs") {
-            bestSellingTv.insertAdjacentHTML('afterbegin', html)
-        }
-        if (category == "bestSellingMonitors") {
-            bestSellingMonitor.insertAdjacentHTML('afterbegin', html)
-        }
+        
 
     })
 
@@ -121,7 +98,7 @@ function renderProducts(products, category) {
 }
 
 function getSingleProductData(id) {
-    fetch(`http://localhost:5000/products/${id}`)
+    fetch(`https://sk-fahim-hossain.github.io/host_api/product/${id}.json`)
         .then(res => res.json())
         .then(data => {
             renderSingleProduct(data)
@@ -129,7 +106,7 @@ function getSingleProductData(id) {
         })
 }
 function getProductDetails(id) {
-    fetch(`http://localhost:5000/products/${id}`)
+    fetch(`https://sk-fahim-hossain.github.io/host_api/product/${id}.json`)
         .then(res => res.json())
         .then(data => {
             showProductDetails(data)
@@ -157,16 +134,16 @@ function showProductDetails(productDetails) {
     }
 
     // Create the modal HTML
-    const html = `<div class="closing-area w-screen h-screen bg-black/75 fixed z-30 flex justify-center items-center">
-            <div class="w-[60%] bg-white/95 rounded-lg relative">
+    const html = `<div class="closing-area w-full h-full bg-black/75 fixed z-30 flex justify-center items-center">
+            <div class="w-[90%] md:w-[75%] bg-white/95 rounded-lg relative">
                 <div class="px-3 py-1 mt-1 cursor-pointer bg-red-400 text-black rounded absolute top-0 right-2 close-btn">x</div>
-                <div class="p-4 flex">
+                <div class="p-4 flex-col md:flex lg:flex xl:flex">
                     <div class="max-w-1/3 overflow-hidden rounded-md">
                         <img src="${productDetails.image}" alt="" class="w-full h-full">
                     </div>
                     <div class="ml-3 flex flex-col gap-4">
                         <p class="text-sm">Reviews (${productDetails.reviews})</p>
-                        <h3 class="text-3xl">${productDetails.title}</h3>
+                        <h3 class="text-2xl md:text-3xl lg:text-3xl xl:text-3xl">${productDetails.title}</h3>
                         <p class="text-2xl">USD ${productDetails.price}</p>
                         <button data-id="${productDetails.id}" class="add-to-cart-btn cart-open-btn bg-sky-500 text-sky-50 py-2 px-5 rounded-md font-semibold shadow-lg hover:bg-rose-500 hover:shadow-rose-200 duration-300 mt-2">
                             Add to Cart
